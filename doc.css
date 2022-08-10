@@ -48,7 +48,7 @@ form{
 input, textarea, button{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
-    color: white;
+    color: coral; /* there has been a change */
     border-radius: 5px;
 }
 
