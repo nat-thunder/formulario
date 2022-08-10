@@ -103,6 +103,7 @@ fieldset.grupo .campo{
 
 .campo input:focus, .campo select:focus, .campo textarea:focus{
     background-color: coral;
+    color: white; /* this is the change */
 }
 
 .botao{
