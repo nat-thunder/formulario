@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- entrar na linguagem unicode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="doc.css" media="screen">
+    <title>Cadastro para se tornar dev</title>
+</head>
+<body>
+    
+    <div>
+        <h1 id="titulo">formulário hello world</h1>
+        <p id="subtitulo">Insira com informações que sejam verdadeiras para você (ღ˘⌣˘ღ)</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Seu nome (ou codinome maneiríssimo que você criou quando tinha 13 anos):</strong></label>
+                <input type="text" name="chamador" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="linguagem"><strong>Linguagem de programação favorita (ou a que você mais quer aprender):</strong></label>
+                <input type="text" name="linguagem" id="linguagem" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>Seu endereço na matrix (ou seu email):</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>A melhor parte sobre programar é...</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="cientista">Estar um passo mais próximo do futuro que Isaac Asimov imaginou
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="cansado">Quando o código dá certo
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="sonhador">Pensar que eu posso criar meu próprio Chrono Trigger
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="contracultura">Me sentir um hacker no terminal
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="historico">Carregar o legado da Ada Lovelace
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="magnata">A bufunfa
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="estado"><strong>Qual seu estado?</strong></label>
+            <select id="estado" required>
+                <option selected disabled value="">Selecione seu estado</option>
+                <option>Sólido</option>
+                <option>Líquido</option>
+                <option>Gasoso</option>
+                <option>Plasma</option>
+                <option>Eu não sabia que plasma era um estado</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>A(s) área(s) que mais chama(m) sua atenção em tecnologia:</strong></label><br><br>
+                <input type="checkbox" id="area1" name="area1" value="games">
+                <label for="area1">Desenvolvimento de games (quero ser o próximo Toby Fox)</label>
+                <input type="checkbox" id="area2" name="area2" value="security">
+                <label for="area2">Cyber Security (vou garatir que o plot de Metal Gear Solid 2 não se torne realidade e nunca mais serei capaz de assistir a um filme de hacker)</label>
+                <input type="checkbox" id="area3" name="area3" value="design">
+                <label for="area3">Web Design (todos os sites mal formatados que já tive que aguentar em minha vida me deram determinação para isso)</label>
+                <input type="checkbox" id="area4" name="area4" value="robotica">
+                <label for="area4">Robótica (eu não aprendi nada jogando Megaman)</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label><strong>Mas agora me conta de você</strong></label>
+            <textarea rows="10" style="width: 45em" id="historia" name="historia"></textarea>
+        </div>
+
+        <div>
+            <button class="botao" type="submit" onsubmit="">Me tornei dev preenchendo esse cadastro emocionante</button>
+        </div>
+    </form>
+
+</body>
+</html>
