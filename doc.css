@@ -63,7 +63,7 @@ input, textarea, button{
 select{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
-    color: white;
+    color: coral; /* change */
     border-radius: 5px;   
 }
 
