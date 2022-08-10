@@ -95,6 +95,7 @@ fieldset.grupo .campo{
 
 .campo select:hover{
     background-color: coral;
+    color: white; /* change */
 }
 
 .campo select option{
